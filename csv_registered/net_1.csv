@@ -1,0 +1,3 @@
+domain,registrar,creation_date,expiration_date,status,name_servers
+i.net,"Network Solutions, LLC",913352400,1891628710,clientDeleteProhibited https://icann.org/epp#clientDeleteProhibited,"{""ns2.fma.net"", ""ns1.fma.net""}"
+q.net,"GoDaddy.com, LLC",706420800,1653192000,clientDeleteProhibited https://icann.org/epp#clientDeleteProhibited,"{""ns13.domaincontrol.com"", ""ns14.domaincontrol.com""}"

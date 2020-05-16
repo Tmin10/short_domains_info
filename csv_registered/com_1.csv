@@ -1,0 +1,4 @@
+domain,registrar,creation_date,expiration_date,status,name_servers
+q.com,"CSC Corporate Domains, Inc.",922770000,1617076800,clientTransferProhibited https://icann.org/epp#clientTransferProhibited,"{""authns1.qwest.net"", ""authns2.qwest.net""}"
+x.com,"GoDaddy.com, LLC",733726800,1792526177,clientDeleteProhibited https://icann.org/epp#clientDeleteProhibited,"{""ns71.domaincontrol.com"", ""ns72.domaincontrol.com""}"
+z.com,"GMO Internet, Inc. d/b/a Onamae.com",882507600,1608267600,clientDeleteProhibited https://icann.org/epp#clientDeleteProhibited,"{""ns1.gmointernet.com"", ""ns2.gmointernet.jp"", ""ns1.gmointernet.jp""}"
