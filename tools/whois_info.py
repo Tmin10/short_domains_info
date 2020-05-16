@@ -66,11 +66,11 @@ def create_readme(table):
             "This dataset contains set of csv files with information of registered and free domains in COM, NET and ORG TLDs for 1-3 char name lenths. \n\n"
             "In the [tools](tree/master/tools) folder you can find two python scripts:\n"
             "* `whois_test.py` - get whois information and put it into sqlite database;\n"
-            "* `whois_info.py` - create CSVs from database and update this readme file.\n"
+            "* `whois_info.py` - create CSVs from database and update this readme file.\n\n"
             "## Please note:\n"
             "1. This dataset is incomplete and could be outdated. It's possible that I'll update it in the future;\n"
-            "2. Part of 'free' domains could be reserved and unavailable for a registration (e.g. i.com, vc.org). To get the latest information please check the domains in whois service.\n"
-            "##Datasets summary:\n"
+            "2. Part of 'free' domains could be reserved and unavailable for a registration (e.g. i.com, vc.org). To get the latest information please check the domains in whois service.\n\n"
+            "## Datasets summary:\n"
         )
         header = "\n| Length | "
         table_delimiter = "|---|"
@@ -84,10 +84,10 @@ def create_readme(table):
             registered_row = "| {} | ".format(tld_length)
             free_row = "| | "
             for tld in table.keys():
-                registered_row += "Registered: [{registered}](blob/master/csv_registered/{tld}_{tld_length}.csv) |".format(
+                registered_row += "Registered: [{registered}](csv_registered/{tld}_{tld_length}.csv) |".format(
                     **table[tld][tld_length]
                 )
-                free_row += "Free: [{free}](blob/master/csv_free/{tld}_{tld_length}.csv) |".format(
+                free_row += "Free: [{free}](csv_free/{tld}_{tld_length}.csv) |".format(
                     **table[tld][tld_length]
                 )
             readme_file.write(registered_row + "\n")
